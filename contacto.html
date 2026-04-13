@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | A&H TECHNOLOGY</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="container nav-container">
+        <h1 class="logo">A&H TECHNOLOGY</h1>
+
+        <nav id="menu">
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="promociones.html">Promociones</a></li>
+                <li><a href="contacto.html" class="active">Contacto</a></li>
+                <li><a href="cotizaciones.html">Cotizaciones</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="testimonios.html">Testimonios</a></li>
+            </ul>
+        </nav>
+
+        <button id="menu-toggle">☰</button>
+    </div>
+</header>
+
+<main>
+
+<section class="page-banner">
+    <div class="container">
+        <h2>Contáctanos</h2>
+        <p>Estamos listos para ayudarte con cualquier servicio tecnológico.</p>
+    </div>
+</section>
+
+<section class="contact-cards container">
+    <div class="contact-info-grid">
+
+        <article class="info-card">
+            <a href="https://wa.me/50493942215" target="_blank" class="info-icon">💬</a>
+            <h3>WhatsApp</h3>
+            <p><a href="https://wa.me/50493942215">+504 9394-2215</a></p>
+            <p><a href="https://wa.me/50489499433">+504 8949-9433</a></p>
+        </article>
+
+        <article class="info-card">
+            <a href="mailto:inversioneslirios504@gmail.com" class="info-icon">📧</a>
+            <h3>Correo</h3>
+            <p class="correo-link">
+                <a href="mailto:inversioneslirios504@gmail.com">
+                    inversioneslirios504@gmail.com
+                </a>
+            </p>
+        </article>
+
+        <article class="info-card">
+            <a href="https://www.google.com/maps?q=Danlí,El+Paraíso,Honduras" target="_blank" class="info-icon">📍</a>
+            <h3>Ubicación</h3>
+            <p>Danlí, El Paraíso, Honduras</p>
+        </article>
+
+    </div>
+</section>
+
+<section class="contact-layout container">
+
+    <div class="contact-box">
+        <h3>Envíanos un mensaje</h3>
+
+        <form id="contact-form" class="contact-form" novalidate>
+
+            <!-- NOMBRE -->
+            <div class="form-group">
+                <label>Nombre completo</label>
+
+                <input 
+                    type="text" 
+                    id="nombre"
+                    placeholder="Ej: Juan Pérez"
+                    title="Solo letras, sin números"
+                >
+
+                <small class="form-hint">
+                    Solo letras. No se permiten números ni símbolos.
+                </small>
+
+                <small id="error-nombre" class="error-text"></small>
+            </div>
+
+            <!-- EMAIL -->
+            <div class="form-group">
+                <label>Correo electrónico</label>
+                <input type="email" id="email" placeholder="tu@correo.com">
+                <small id="error-email" class="error-text"></small>
+            </div>
+
+            <!-- TELEFONO -->
+            <div class="form-group">
+                <label>Teléfono</label>
+                <input type="tel" id="telefono" placeholder="9999-9999">
+                <small id="error-telefono" class="error-text"></small>
+            </div>
+
+            <!-- SERVICIO -->
+            <div class="form-group">
+                <label>Servicio</label>
+                <select id="servicio">
+                    <option value="">Seleccione</option>
+                    <option>Reparación</option>
+                    <option>Mantenimiento</option>
+                    <option>Cámaras</option>
+                </select>
+                <small id="error-servicio" class="error-text"></small>
+            </div>
+
+            <!-- MENSAJE -->
+            <div class="form-group">
+                <label>Mensaje</label>
+                <textarea id="mensaje" rows="5"></textarea>
+                <small id="error-mensaje" class="error-text"></small>
+            </div>
+
+            <button type="submit" class="btn">Enviar</button>
+            <p id="form-success" class="form-success"></p>
+
+        </form>
+    </div>
+
+    <aside class="contact-side">
+        <h3>Atención rápida</h3>
+
+        <a href="https://wa.me/50493942215" class="quick-link whatsapp-link">💬 WhatsApp</a>
+        <a href="cotizaciones.html" class="quick-link normal-link">📄 Cotizar</a>
+
+        <div class="schedule-box">
+            <h4>Horario</h4>
+            <p>Lunes a sábado</p>
+            <p>8:00 AM - 6:00 PM</p>
+        </div>
+    </aside>
+
+</section>
+
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-grid">
+
+        <div class="footer-brand">
+            <h3>A&amp;H Technology</h3>
+            <p>
+                Soluciones integrales en mantenimiento, reparación, instalación y soporte
+                tecnológico para hogares, negocios y empresas.
+            </p>
+        </div>
+
+        <div class="footer-contact">
+            <h4>Contacto</h4>
+            <p>
+                <a href="https://wa.me/50493942215" target="_blank">WhatsApp: +504 9394-2215</a>
+            </p>
+            <p>
+                <a href="https://wa.me/50489499433" target="_blank">WhatsApp: +504 8949-9433</a>
+            </p>
+            <p>Correo: inversioneslirios504@gmail.com </p>
+            <p>Ubicación:  Danli, El Paraíso, Honduras</p>
+        </div>
+
+        <div class="footer-links">
+            <h4>Enlaces rápidos</h4>
+            <a href="index.html">Inicio</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="cotizaciones.html">Cotizar Servicio</a>
+            <a href="faq.html">Preguntas Frecuentes</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+
+        <div class="footer-social">
+            <h4>Redes sociales</h4>
+            <a href="https://www.facebook.com/ahtechnology504" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/ahtechnology24/" target="_blank">Instagram</a>
+            <a href="https://www.tiktok.com/@ah_technology24?_r=1&_t=ZS-95U5kHo2nI5" target="_blank">TikTok</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 A&amp;H Technology Soluciones Integrales. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+<!-- ===== VALIDACIÓN ===== -->
+<script>
+
+// BLOQUEAR NUMEROS EN NOMBRE
+const nombreInput = document.getElementById("nombre");
+
+nombreInput.addEventListener("input", function() {
+    this.value = this.value.replace(/[^A-Za-zÁÉÍÓÚáéíóúÑñ\s]/g, "");
+});
+
+// VALIDACIÓN FORMULARIO
+const form = document.getElementById("contact-form");
+const success = document.getElementById("form-success");
+
+form.addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    let valido = true;
+
+    function error(id, msg){
+        document.getElementById(id).textContent = msg;
+        if(msg !== "") valido = false;
+    }
+
+    const nombre = document.getElementById("nombre").value.trim();
+    const email = document.getElementById("email").value.trim();
+    const telefono = document.getElementById("telefono").value.trim();
+    const servicio = document.getElementById("servicio").value;
+    const mensaje = document.getElementById("mensaje").value.trim();
+
+    const nombreRegex = /^[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+$/;
+
+    error("error-nombre", nombre === "" ? "Ingrese su nombre" :
+        nombre.length < 3 ? "Nombre muy corto" :
+        !nombreRegex.test(nombre) ? "Solo letras permitidas" : "");
+
+    error("error-email", !email.includes("@") ? "Correo inválido" : "");
+    error("error-telefono", telefono.length < 8 ? "Teléfono inválido" : "");
+    error("error-servicio", servicio === "" ? "Seleccione un servicio" : "");
+    error("error-mensaje", mensaje.length < 10 ? "Mensaje muy corto" : "");
+
+    if(valido){
+        success.textContent = "Mensaje enviado correctamente";
+        form.reset();
+    } else {
+        success.textContent = "";
+    }
+});
+
+</script>
+
+</body>
+</html>
